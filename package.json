@@ -1,0 +1,12 @@
+{
+  "name": "ideias-automation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --config video=false"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}

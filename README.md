@@ -3,6 +3,7 @@
 
 [![Site](https://img.shields.io/badge/website-ideiasonlines.com-ff6f61)](https://ideiasonlines.com/)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://img.shields.io/badge/status-active-brightgreen)
+[![Cypress Tests](https://github.com/OWNER/REPO/actions/workflows/cypress.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/cypress.yml)
 
 Bem-vindo ao repositório do **Ideias** — um blog com receitas, dicas de cozinha e ideias criativas para inspirar o dia a dia.
 
