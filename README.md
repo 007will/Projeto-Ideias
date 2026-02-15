@@ -1,42 +1,112 @@
-# Ideias — Blog de Culinária e Ideias Interessantes
+<!-- prettier-ignore-start -->
+# ✨ Ideias — Blog de Culinária & Inspiração
 
-Bem-vindo ao repositório do projeto Ideias: um blog dedicado a culinária, receitas e ideias interessantes.
+[![Site](https://img.shields.io/badge/website-ideiasonlines.com-ff6f61)](https://ideiasonlines.com/)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://img.shields.io/badge/status-active-brightgreen)
 
-Site: https://ideiasonlines.com/
+Bem-vindo ao repositório do **Ideias** — um blog com receitas, dicas de cozinha e ideias criativas para inspirar o dia a dia.
 
-**Descrição**: Este projeto reúne receitas práticas, dicas de cozinha e conteúdos criativos para inspirar leitores a experimentar novas ideias na cozinha e além.
+> Um espaço para cozinhar, experimentar e compartilhar boas ideias. 👩‍🍳✨
 
-**Destaques**
-- Receitas passo a passo (rápidas e completas)
-- Dicas de cozinha e técnicas
-- Ideias criativas e projetos DIY relacionados à alimentação
-- Curadoria de conteúdos e inspiração semanal
+## Índice
 
-**Estrutura do site**
-- Página inicial: artigos em destaque
-- Receitas: ficha de receita com ingredientes e modo de preparo
-- Ideias: posts sobre projetos e inspirações
-- Sobre: informações sobre o autor / objetivo do blog
-- Contato: formulário ou links para redes sociais
+- [Visão geral](#visão-geral)
+- [Destaques](#destaques)
+- [Estrutura do site](#estrutura-do-site)
+- [Template de receita](#template-de-receita)
+- [Como contribuir](#como-contribuir)
+- [Desenvolvimento local](#desenvolvimento-local)
+- [Tecnologias](#tecnologias)
+- [Licença](#licença)
+- [Contato](#contato)
 
-**Como contribuir**
-1. Faça um fork deste repositório.
-2. Crie uma branch com sua feature, por exemplo `feature/minha-receita`.
-3. Abra um Pull Request descrevendo a mudança e incluindo imagens/formatos necessários.
+## Visão geral
 
-Sugestões de contribuição: envio de receitas, correções de conteúdo, melhorias de layout e tradução.
+Este projeto reúne receitas práticas, guias passo a passo e ideias DIY relacionadas à alimentação. O objetivo é oferecer conteúdo claro, visual e fácil de reproduzir em casa.
 
-**Rodar / Testar localmente**
-- Se este repositório contiver o código do site, clone-o e siga as instruções específicas do projeto (por exemplo, instalar dependências e executar o servidor local). Caso contrário, o conteúdo pode ser gerenciado diretamente no CMS ou plataforma usada pelo site.
+## Destaques
 
-**Tecnologias**
-- (Preencha conforme o stack do projeto) Exemplos: HTML, CSS, JavaScript, Node.js, React, Hugo, WordPress, etc.
+- 🍽️ Receitas com ingredientes acessíveis
+- ⏱️ Versões rápidas e versões completas
+- 🧰 Dicas de técnica e utensílios
+- 💡 Ideias criativas e projetos relacionados à comida
 
-**Licença**
-- Defina a licença do projeto (por exemplo, MIT) ou mantenha reservados os direitos conforme desejado.
+## Estrutura do site
 
-**Contato**
+- **Home** — artigos e receitas em destaque
+- **Receitas** — página por receita com ingredientes, preparo e tempo
+- **Ideias** — posts sobre projetos, dicas e inspirações
+- **Sobre** — sobre o autor e missão do blog
+- **Contato** — formulário ou links para redes sociais
+
+## Template de receita
+
+Use este modelo ao adicionar novas receitas (Markdown):
+
+---
+**Título:** Nome da receita
+
+**Tempo:** 20 min | **Rendimento:** 2 porções
+
+**Ingredientes:**
+
+- 1 xícara de exemplo
+- 2 colheres de sopa de amor
+
+**Modo de preparo:**
+
+1. Faça tal coisa.
+2. Depois faça aquilo.
+
+**Dicas:**
+
+- Substitua X por Y para versão vegana.
+---
+
+Se o projeto usar front-matter (ex.: Hugo, Jekyll), adicione os campos necessários no topo do arquivo.
+
+## Como contribuir
+
+1. Fork deste repositório
+2. Crie uma branch: `feature/minha-receita`
+3. Adicione sua receita ou correção (inclua imagens em `assets/` se houver)
+4. Abra um Pull Request descrevendo as mudanças
+
+Sugestões: enviar receitas testadas, melhorar acessibilidade do conteúdo, traduzir ou propor variações regionais.
+
+## Desenvolvimento local
+
+As instruções dependem do stack usado pelo site. Exemplo genérico:
+
+```bash
+git clone <repo>
+cd nome-do-repo
+# Instalar dependências (exemplo Node.js)
+npm install
+# Rodar servidor local
+npm run dev
+```
+
+Se o site for gerenciado em CMS (WordPress, Netlify CMS, etc.), as edições podem ocorrer diretamente pelo painel.
+
+## Tecnologias
+
+- Exemplos: HTML, CSS, JavaScript, Node.js, React, Hugo, Jekyll, WordPress
+
+## Licença
+
+Defina a licença do projeto (por exemplo, **MIT**) ou indique que os direitos são reservados conforme preferir.
+
+## Contato
+
 - Site: https://ideiasonlines.com/
-- Para parcerias e contato: use a página de contato do site.
+- Para parcerias, use a página de contato do site.
 
-Se quiser, adapto este README para incluir instruções de desenvolvimento específicas, templates de receita ou um modelo de contribuição mais detalhado.
+---
+
+Se desejar, eu posso:
+- adicionar um template de PR e ISSUE
+- criar um modelo de receita (arquivo Markdown pronto)
+- gerar badges personalizados e uma seção de screenshots
+
+<!-- prettier-ignore-end -->
