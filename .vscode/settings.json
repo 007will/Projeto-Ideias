@@ -4,5 +4,8 @@
         "comments": true,
         "strings": true
     },
-    "editor.suggestOnTriggerCharacters": true
+    "editor.suggestOnTriggerCharacters": true,
+    "chat.tools.terminal.autoApprove": {
+        "exist": true
+    }
 }
