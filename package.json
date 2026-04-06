@@ -2,11 +2,22 @@
   "name": "ideias-automation",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --config video=false"
+    "cypress:run": "cypress run --config video=false",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "format": "prettier --write \"cypress/**/*.js\" \"*.js\" \"*.json\"",
+    "format:check": "prettier --check \"cypress/**/*.js\" \"*.js\" \"*.json\"",
+    "test": "npm run lint && npm run cypress:run",
+    "test:ci": "npm run lint && cypress run --record --parallel"
   },
   "devDependencies": {
-    "cypress": "^14.5.4"
+    "cypress": "^14.5.4",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-cypress": "^6.2.3",
+    "prettier": "^3.8.1"
   }
 }
