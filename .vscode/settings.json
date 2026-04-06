@@ -6,6 +6,7 @@
     },
     "editor.suggestOnTriggerCharacters": true,
     "chat.tools.terminal.autoApprove": {
-        "exist": true
+        "exist": true,
+        "git rm": true
     }
 }
